@@ -1,0 +1,288 @@
+.mp {
+  background-image: linear-gradient(
+    135deg,
+    #000000,
+    #272927,
+    #2c2d2c,
+    #596658,
+    #7e907d,
+    #b8bfb7,
+    #fafafa
+  );
+  background-size: 500%;
+  animation: fanimado 10s infinite;
+  width: 100%;
+  height: 15.2cm;
+}
+#cabecera {
+  background-image: linear-gradient(
+    135deg,
+    #000000,
+    #272927,
+    #2c2d2c,
+    #596658,
+    #7e907d,
+    #b8bfb7,
+    #fafafa
+  );
+  background-size: 500%;
+  animation: fanimado 10s infinite;
+}
+
+.mp svg {
+  position: absolute;
+  background-image: linear-gradient(
+    135deg,
+    #00b7d4,
+    #43c3ff,
+    #2c56fd,
+    #1a16ef,
+    #300ca7,
+    #0b2382,
+    #004cfc
+  );
+  background-size: 500%;
+  animation: fanimado 10s infinite;
+  width: 80%;
+  height: 95%;
+  border-color: white;
+  right: 10%;
+  top: 10%;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.mp svg path {
+  fill: rgb(10, 255, 10);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 30%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#SV-SV,
+#SV-AH,
+#SV-CA,
+#SV-CH,
+#SV-CU,
+#SV-LI,
+#SV-MO,
+#SV-PA,
+#SV-SA,
+#SV-SM,
+#SV-SO,
+#SV-UN,
+#SV-US,
+#SV-SS {
+  transform: rotateX(0grad), rotateY(0grad);
+  transition: transform 1s ease-in-out, fill 1s ease-in-out;
+}
+
+#SV-SV:hover,
+#SV-AH:hover,
+#SV-CA:hover,
+#SV-CH:hover,
+#SV-CU:hover,
+#SV-LI:hover,
+#SV-MO:hover,
+#SV-PA:hover,
+#SV-SA:hover,
+#SV-SM:hover,
+#SV-SO:hover,
+#SV-UN:hover,
+#SV-US:hover,
+#SV-SS:hover {
+  transform: translateY(-10px);
+  fill: rgb(0, 149, 30);
+  transition: transform 1s ease-in-out, fill 1s ease-in-out;
+  stroke-width: 4px;
+}
+
+#cabecera {
+  right: 50%;
+  justify-content: center;
+}
+
+.titulos {
+  color: rgb(255, 255, 255);
+
+  left: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#cabecera .titulos {
+  right: 50%;
+  background-color: rgb(114, 114, 114);
+  border-radius: 10px;
+}
+
+#mas {
+  margin: auto;
+  width: 6cm;
+  height: 4cm;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  left: 11cm;
+  color: white;
+}
+
+.depa {
+  background-color: rgb(147, 147, 147);
+  border-radius: 10px;
+}
+
+.zonac {
+  height: 4.5cm;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.zonao {
+  height: 2cm;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.zonaor {
+  height: 3cm;
+  background-color: white;
+  border-radius: 10px;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+ul a:hover {
+  color: dimgrey;
+}
+#tablero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  background: white;
+  height: 400px;
+  width: 680px;
+  
+  margin-top: 50px;
+  margin-left: 340px;
+  margin-right: 380px;
+  
+}
+#mapa{
+fill:#0b2382 ;
+height: 140px;
+justify-content:center;
+
+}
+#tablero1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  background: rgb(63, 152, 220);
+  height: 100px;
+  width: auto;
+  
+}
+#tablero2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  height: 800px;
+  width: auto;
+  
+}
+#tablero3{
+  height: 10%;
+  justify-content: top;
+  align-items: center;
+  padding: 0px;
+
+  width: auto;
+  
+}
+#tablero4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  background: rgb(63, 152, 220);
+  height: 150px;
+  width: auto;
+  
+}
+div.parrafo{
+  text-align: right;
+  color: white;
+  font-size: 50px;
+}
+div.parrafo2{
+  
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  width: 100%;
+}
+div.parrafo3{
+  justify-content: top;
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  width: 100%;
+}
+div.parrafo4{
+  
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  width: 100%;
+}
+div.parrafo5{
+  
+  justify-content: right;
+  text-align: right;
+  color: white;
+  font-size: 22px;
+  width: 940px;
+  
+}
+div.parrafo6{
+
+  color: white;
+  font-size: 11px;
+  width: 400px;
+  
+}
+img.redimension{
+  width: 100%;
+}
+.swiper{
+  width: 100%;
+height: 500px;
+}
+
+.swiper-slide img{
+  width: 100%;
+  
+}
